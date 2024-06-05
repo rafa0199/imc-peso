@@ -8,21 +8,24 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div>
-            <label for="">ENTRE COM SUA ALTURA:</label>
-            <input type="text" id="peso">
+    <form action="">
+        <div class="container">
+            <div>
+                <label for="">ENTRE COM SUA ALTURA:</label>
+                <input type="text" id="altura">
+            </div>
+    
+            <div>
+                <label for="">ENTRE COM SEU PESO:</label>
+                <input type="text" id="peso">
+            </div>
+            <div>
+               <input type="button" value="calcular imc" onclick="calcular()">
+            </div>
         </div>
-
-        <div>
-            <label for="">ENTRE COM SEU PESO:</label>
-            <input type="text" id="peso">
-        </div>
-        <div>
-            <input type="button" value="calcular IMC" onclick="calcular()">
-        </div>
-    </div>
-    <div id="IMC">seu IMC é:</div>
-    <div id="status">staus:</div>
+        <div id="IMC">seu IMC é:</div>
+        <div id="status">staus:</div>
+    </form>
+    
 </body>
 </html>
